@@ -10,4 +10,7 @@ it("Core Tests", () => {
   expect(classNames(0, false, "abc", undefined, "123", NaN)).toEqual("abc 123");
   expect(classNames("abc", "123", { abc: true })).toEqual("abc 123");
   expect(classNames("abc", "123", ["xyz", "pqr"])).toEqual("abc 123");
+  expect(classNames("abc", "123", { [`xyz-${1 + 2}`]: true })).toEqual(
+    "abc 123 xyz-3"
+  );
 });
