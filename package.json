@@ -1,13 +1,28 @@
 {
   "name": "@devmalik/classnames",
   "version": "1.0.0",
-  "description": "A simple utility function for merging classnames",
+  "description": "A simple utility for conditionally joining classNames together",
   "main": "index.js",
   "scripts": {
     "test": "jest"
   },
   "author": "Malik Bagwala",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MalikBagwala/classnames.git"
+  },
+  "keywords": [
+    "react",
+    "css",
+    "classes",
+    "classnames",
+    "javascript",
+    "tailwindcss",
+    "className",
+    "classname",
+    "@devmalik/classnames"
+  ],
   "devDependencies": {
     "jest": "^26.5.2"
   }
