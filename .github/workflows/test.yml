@@ -1,4 +1,4 @@
-name: Perform unit tests (Jest)
+name: test @devmalik/classnames
 
 on:
   push:
