@@ -1,0 +1,14 @@
+{
+  "name": "@devmalik/classnames",
+  "version": "1.0.0",
+  "description": "A simple utility function for merging classnames",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Malik Bagwala",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^26.5.2"
+  }
+}
