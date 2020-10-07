@@ -1,6 +1,6 @@
 {
   "name": "@devmalik/classnames",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A simple utility for conditionally joining classNames together",
   "main": "index.js",
   "scripts": {
