@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:MalikBagwala/classnames.git",
   "author": "Malik Bagwala <m.bagwala@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "rollup": "^2.34.0"
+  }
 }
