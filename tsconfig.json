@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "declarationDir": "./build",
+    "module": "ESNext",
+    "noImplicitAny": true,
+    "outDir": "./build",
+    "target": "ESNext"
+  },
+  "include": [
+    "index.ts"
+  ],
+  "exclude": ["node_modules"]
+}
