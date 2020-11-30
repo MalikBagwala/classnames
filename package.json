@@ -1,0 +1,8 @@
+{
+  "name": "@devmalik/classnames",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:MalikBagwala/classnames.git",
+  "author": "Malik Bagwala <m.bagwala@gmail.com>",
+  "license": "MIT"
+}
