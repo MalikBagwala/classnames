@@ -4,7 +4,8 @@
   "description": "A simple utility for conditionally joining classNames together",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "publish": "semantic-release"
   },
   "author": "Malik Bagwala",
   "license": "ISC",
@@ -24,6 +25,16 @@
     "@devmalik/classnames"
   ],
   "devDependencies": {
-    "jest": "^26.5.2"
+    "@commitlint/cli": "^11.0.0",
+    "@commitlint/config-conventional": "^11.0.0",
+    "@semantic-release/git": "^9.0.0",
+    "husky": "^4.3.0",
+    "jest": "^26.5.2",
+    "semantic-release": "^17.3.0"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
